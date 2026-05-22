@@ -1,0 +1,9 @@
+/* add your own CSS rules here */
+
+tei-teiHeader {
+  display: none;
+}
+
+tei-text {
+	width:36em;
+}

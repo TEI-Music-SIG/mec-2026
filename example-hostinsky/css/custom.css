@@ -1,0 +1,29 @@
+/* CSS for Hostinsky Example */
+
+tei-teiHeader {
+  display: none;
+}
+
+tei-text {
+	width:36em;
+}
+tei-facs {
+    display:none;
+}
+tei-hi[rend="i"] {
+    font-style:italic;
+}
+tei-hi[rend="s"] {
+    letter-spacing:0.1em;
+}
+.svg-highlight {
+	fill:red;
+	stroke:red;
+	font-weight:bold;
+}
+a {
+    text-decoration:none;
+}
+tei-ref {
+    text-decoration:none;
+}
