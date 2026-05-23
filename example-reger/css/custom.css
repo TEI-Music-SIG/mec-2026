@@ -1,9 +1,28 @@
-/* add your own CSS rules here */
+/* CSS for Reger Example */
 
 tei-teiHeader {
   display: none;
 }
-
 tei-text {
-	width:36em;
+	width:40em;
+}
+tei-text tei-notatedMusic svg {
+    width:80%;
+    height:80%;
+}
+tei-hi[rend='b'] {
+    font-weight:bold;
+}
+tei-text tei-body tei-head {
+    font-family:Times,serif;
+}
+tei-text tei-body {
+    font-family:Times,serif;
+}
+tei-text tei-div[type='footnotes'] {
+    font-size:0.9em;
+}
+tei-text tei-p[rend='center'],
+tei-text tei-head[rend='center'] {
+    text-align:center;
 }

@@ -3,27 +3,27 @@
 tei-teiHeader {
   display: none;
 }
-
 tei-text {
 	width:36em;
 }
-tei-facs {
+tei-text tei-facs {
     display:none;
 }
-tei-hi[rend="i"] {
+tei-text tei-hi[rend="i"] {
     font-style:italic;
 }
-tei-hi[rend="s"] {
+tei-text tei-hi[rend="s"] {
     letter-spacing:0.1em;
 }
-.svg-highlight {
+tei-text a {
+    text-decoration:none;
+}
+tei-text tei-ref {
+    text-decoration:none;
+}
+/* svg highlighting */
+tei-text .svg-highlight {
 	fill:red;
 	stroke:red;
 	font-weight:bold;
-}
-a {
-    text-decoration:none;
-}
-tei-ref {
-    text-decoration:none;
 }
