@@ -1,20 +1,13 @@
-# CETEIcean + Verovio + MathJax 📄🎵🎵➗
+# First Example: Reger
 
-A minimal example to display TEI files with multiple sections of musical notation and **formulas** within. Similar to [ceteicean-verovio](../ceteicean-verovio), but with additional TeX support using MathJax.
+An example to display TEI files with a section of **musical notation** and **formula-like functional chord notation**.
 
-Live Demo: https://tei-music-sig.github.io/examples/ceteicean-verovio-mathjax/
+Live Demo: https://tei-music-sig.github.io/mec-2026/example-reger/
+
+Original page: https://archive.org/details/supplementtotheo00rege/page/6/mode/2up
 
 ### How it works
 
-- see [ceteicean-verovio](../ceteicean-verovio)
+- see https://github.com/TEI-Music-SIG/examples/
 - a little JavaScript function manages the document selection
 - MathJax is triggered when a `<formula>` element in TEI contains `@rend="tex"`.
-
-
-### How to customize
-
-- see [ceteicean-verovio](../ceteicean-verovio)
-
-If you would like to display more than one TEI file, try [ceteicean-verovio-corpus](../ceteicean-verovio-corpus).
-
-If you would like to include also diagrams, try [ceteicean-verovio-mathjax-svg](../ceteicean-verovio-mathjax-svg).
