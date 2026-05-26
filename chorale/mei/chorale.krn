@@ -1,0 +1,101 @@
+!!!COM: Bach, Johann Sebastian
+!!!OPR: Joh. Seb. Bachs vierstimmige Choralgesänge
+!!!XEN: Four-part Chorales
+!!!OTL: Chorale 1. Ach bleib' bei uns, Herr Jesu Christ
+!!!SCT: BWV 253
+!!!SCA: Thematisch-systematisches Verzeichnis der musikalischen Werke Johann Sebastian Bach: Bach-Werke-Verzeichnis (Schmieder)
+!!!YOR: Bach Gesellschaft Edition xxxix
+!!!ENC: Steven Rasmussen
+!!!CDT: 1685/3//-1750/7/28/
+!!!OCY: Deutschland
+!!!YEC: Copyright (c) 1994, 2000 Center for Computer Assisted Research in the Humanities
+!!!YEM: Rights to all derivative editions reserved
+!!!YEN: United States of America
+**kern	**kern	**kern	**kern	**silbe
+*I"[BASSO]	*I"[TENORE]	*I"[ALTO]	*I"[SOPRANO]	*I"[SOPRANO]
+*clefF4	*clefGv2	*clefG2	*clefG2	*
+*k[f#c#g#]	*k[f#c#g#]	*k[f#c#g#]	*k[f#c#g#]	*
+*A:	*A:	*A:	*A:	*
+*M4/4	*M4/4	*M4/4	*M4/4	*
+4AA	4e	4a	4cc#	Ach
+=1	=1	=1	=1	=1
+4A	4e	4a	8cc#L	bleib'
+.	.	.	8ddJ	.
+4G#	4e	4b	4ee	bei
+4A	4e	4a	4cc#	uns,
+4F#	8eL	4a	4a	Herr
+.	8dJ	.	.	.
+=2	=2	=2	=2	=2
+4Gn	4d	8gnL	4b	Je-
+.	.	8f#J	.	.
+4A	4A	4e	4cc#	-su
+4D;	4A;	4f#;	4dd;	Christ,
+4AA	4A	4e	4cc#	weil
+=3	=3	=3	=3	=3
+4E	4G#	8eL	4b	es
+.	.	8dJ	.	.
+8F#L	4A	4c#	4a	nun
+8EJ	.	.	.	.
+8DL	2d	2f#	4.a	A-
+8E	.	.	.	.
+8F#	.	.	.	.
+8G#J	.	.	8b	.
+=4	=4	=4	=4	=4
+4A	8c#L	4e	4cc#	.
+.	8BJ	.	.	.
+8C#L	4A	4e	4cc#	-bend
+8DJ	.	.	.	.
+4E	4A	4.e	8bL	wor-
+.	.	.	8aJ	.
+4E	4G#	.	4b	-den
+.	.	8d	.	.
+=5	=5	=5	=5	=5
+2.AA;	2.E;	2.c#;	2.a;	ist;
+4AA	4e	4a	4cc#	dein
+=6	=6	=6	=6	=6
+4E	8eL	4g#	4b	gött-
+.	8dJ	.	.	.
+4E#	4c#	4g#	4cc#	-lich
+4F#	4c#	8f#L	4a	Wort,
+.	.	8eJ	.	.
+8BL	4B	4d#	4f#	das
+8AJ	.	.	.	.
+=7	=7	=7	=7	=7
+4G#	4B	4.e	4g#	hel-
+4F#	4A	.	4a	-le
+.	.	8d#	.	.
+4E;	4G#;	4e;	4b;	Licht,
+4C#	4G#	4e#	4cc#	lass
+=8	=8	=8	=8	=8
+8F#L	4A	4c#	4a	ja
+8EJ	.	.	.	.
+8F#L	4d	4f#	4a	bei
+8G#J	.	.	.	.
+8AL	8c#L	4e	4.a	uns
+8B	8d	.	.	.
+8A	8c#	8f#L	.	.
+8G#J	8BJ	8g#J	8b	.
+=9	=9	=9	=9	=9
+4F#	4A	4a	4cc#	.
+8C#L	4A	4e	4cc#	aus-
+8DJ	.	.	.	.
+4E	4A	4.e	8bL	-lö-
+.	.	.	8aJ	.
+4E	4G#	.	4b	-schen
+.	.	8d	.	.
+=10	=10	=10	=10	=10
+2.AA;	2.E;	2.c#;	2.a;	nicht!
+==|!	==|!	==|!	==|!	==|!
+!!!RNB1: NOTE ON SPELLING: BG's "th" is modernized to "t" (e.g. "thut" is changed
+!!!RNB2:   to "tut"). Otherwise, all other spellings have been retained (except where
+!!!RNB3:   noted), including "ss" for modern German "\0/" (long s). -- S. Rasmussen
+*-	*-	*-	*-	*-
+!!!RWG: Key is interpreted using the Humdrum key tool.
+!!!URL-pdf: https://s9.imslp.org/files/imglnks/usimg/6/6b/IMSLP24489-PMLP09471-CCARH_Bach_Chorales.pdf#page=1 Musedata edition
+!!!URL-pdf: https://s9.imslp.org/files/imglnks/usimg/7/7a/IMSLP04155-Bach_-_BGA_253-438.pdf#page=3 	Bach-Gesellschaft Ausgabe, Band 39 (pp.175-276) Leipzig: Breitkopf und Härtel, 1892. Plate B.W. XXXIX.
+!!!END: 1990/06/26
+!!!EMD: Converted from MuseData to Humdrum Dec 19, 2000, by Andreas Kornstaedt using muse2kern.
+!!!EED: Craig Stuart Sapp
+!!!EEV: 2024/03/31
+!!!filter-keyboard: extract -i kern | satb2gs
+!!!title: @{OTL} (@{SCT})
