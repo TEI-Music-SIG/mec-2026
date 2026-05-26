@@ -4,6 +4,8 @@ An example to display TEI files with a section of **musical notation** and **for
 
 Live Demo: https://tei-music-sig.github.io/mec-2026/example-reger/
 
+Original page: https://archive.org/details/supplementtotheo00rege/page/6/mode/2up
+
 ### How it works
 
 - see https://github.com/TEI-Music-SIG/examples/
