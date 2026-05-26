@@ -6,11 +6,16 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/CETEIcean.css" media="all" />
     <link rel="stylesheet" href="css/custom.css" media="all" />
-	<script> 
+		<style>
+			tei-notatedmusic > a {
+				cursor: pointer;
+			}
+		</style>
+	<script>
 		MathJax = {
 			options: {
       		enableMenu: false  // disables the context menu
-      		}, 
+      		},
 		};
 	</script>
 	<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
@@ -51,6 +56,13 @@
 				const response = await fetch('mei/' + source);
 				const data = await response.text();
 				node.innerHTML = vrvToolkit.renderData(data, {});
+				node.dataset.midi = vrvToolkit.renderToMIDI();
+				const play = document.createElement('a');
+				play.innerHTML = '▶︎';
+				node.appendChild(play);
+				play.onclick = function() {
+					alert('HI!');
+				}
 			}
 		},
 		{
@@ -74,7 +86,7 @@
 			}
 		}
 		];
-		
+
 		/* DOM processing */
 		async function processDOM() {
 			for (const processor of processors) {
