@@ -40,3 +40,11 @@ tei-text tei-head[rend='center'] {
 	float: left;
 	padding-right: 10px;
 }
+[rend='Drop-caps(sevenline)'] {
+	font-size: 1050%;
+	margin-bottom: -15px;
+	line-height: 0.8;
+	height: 140px;
+	float: left;
+	padding-right: 10px;
+}
