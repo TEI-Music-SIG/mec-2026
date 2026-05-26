@@ -49,7 +49,7 @@
                      <measure xml:id="g1grnb6y" n="1">
                         <staff xml:id="p1gsuziy" n="1">
                            <layer xml:id="v5g8y4a" n="1">
-                              <note xml:id="wr53rn5" dur.ppq="1" dur="4" oct="5" pname="c" stem.dir="up">
+                              <note xml:id="wr53rn5" dur.ppq="1" dur="4" oct="5" pname="c" accid="s" stem.dir="up">
                                  <accid xml:id="x1itv918" />
                               </note>
                               <note xml:id="y12mu2tn" dur.ppq="1" dur="4" oct="4" pname="a" stem.dir="up">
