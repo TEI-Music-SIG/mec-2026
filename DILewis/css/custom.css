@@ -26,3 +26,25 @@ tei-text tei-p[rend='center'],
 tei-text tei-head[rend='center'] {
     text-align:center;
 }
+[rend='Ink(red)'] {
+	color: red;
+}
+[rend='Ink(blue)'] {
+	color: blue;
+}
+[rend='Drop-caps(fourline)'] {
+	font-size: 560%;
+	margin-bottom: -10px;
+	line-height: 0.8;
+	height: 80px;
+	float: left;
+	padding-right: 10px;
+}
+[rend='Drop-caps(sevenline)'] {
+	font-size: 1050%;
+	margin-bottom: -15px;
+	line-height: 0.8;
+	height: 140px;
+	float: left;
+	padding-right: 10px;
+}

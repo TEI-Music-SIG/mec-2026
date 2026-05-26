@@ -2,7 +2,7 @@
 <html lang="en">
 
   <head>
-    <title>Reger Page 6</title>
+    <title>A Rebus on the late Mr Henry Purcells Name</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/CETEIcean.css" media="all" />
     <link rel="stylesheet" href="css/custom.css" media="all" />
@@ -25,19 +25,20 @@
   	<script>
 		/* CETEIcean */
 		var CETEIcean = new CETEI()
-			CETEIcean.getHTML5("tei/reger.xml", function(data) {
+			CETEIcean.getHTML5("tei/rebus.xml", function(data) {
 			document.getElementById("TEI").appendChild(data)
 		})
 
 		/* Verovio */
 		const vrvToolkit = new verovio.toolkit();
 		vrvToolkit.setOptions({
-			pageHeight: 200,
+			pageHeight: 60000,
 			pageWidth: 1300,
 			ignoreLayout: 1,
 			border: 20,
 			scale: 50,
-			adjustPageHeight: true
+			adjustPageHeight: true,
+			breaks: "line"
 		});
 
 		/* processor definitions */

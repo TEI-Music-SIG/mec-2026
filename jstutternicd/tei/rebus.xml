@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title> A REBUS <emph>on the late</emph> Mr Henry Purcells <emph>Name by</emph> Mr Tomlinson <emph>Set
+					by</emph> Mr I Lenton </title>
+			</titleStmt>
+			<publicationStmt>
+				<p>MEC 2026</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>GB-Gl-R.c.5</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n="20" />
+			<p rend="center"> A REBUS <emph>on the late</emph> Mr Henry Purcells <emph>Name by</emph> Mr
+				Tomlinson <emph>Set by</emph> Mr I Lenton </p>
+			<notatedMusic rend="mei" source="rebus.mei" />
+			<lg type="stanza">
+				<l>Galli marita par tritico seges,</l>
+				<l>Prœnomen est ejus, dat chromati leges</l>
+				<l>Intrat cognome, blanditiis Cati,</l>
+				<l>Exit Eremi in Œdibus stati,</l>
+				<l>Expertum effectum emnes admirentur</l>
+				<l>Quid merent Poetœ? ut bene calcentur.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
