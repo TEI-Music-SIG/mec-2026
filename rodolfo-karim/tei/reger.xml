@@ -3,7 +3,7 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>First Example: Reger Page 6</title>
+				<title>First Example: Reger Page 6 Hello World from Harmony!</title>
 			</titleStmt>
 			<publicationStmt>
 				<p>MEC 2026</p>
@@ -19,13 +19,13 @@
 			<pb n="6"/>
 			<head rend="center">Analysis of the Examples in Modulation.</head>
 			<p rend="center">a) From <hi rend="b">C-major</hi> to:</p>
-			<notatedMusic rend="mei" source="from-c-major-to.mei"/>
+			<notatedMusic rend="mei" source="/rodolfo-karim/mei/from-c-major-to.mei"/>
 			<div>
 				<head>1) <hi rend="b">G-major.</hi></head>
 				<p rend="indent">
-					<lb/>Tonic C-major; use this C-major which is
+					<lb/>Tonic C-major; use this C-major which is Hello
 					<lb/>at the same time the sub-dominant of G-major.
-					<lb/>(Cadence!)
+					<lb/>(Cadence!) oh yeah!
 					<lb/><formula notation="tex">$$[C^{I}\;(=G^{IV}),\;G^{\underline{II}*},\;G^{V^{6}_{4}},\;G^{V},\;|G^{I}]$$</formula>
 				</p>
 			</div>
