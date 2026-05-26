@@ -51,6 +51,7 @@
 				console.log("SOURCE: ", source);
 				const response = await fetch('mei/' + source);
 				const data = await response.text();
+				console.log("DATA", data);
 				node.innerHTML = vrvToolkit.renderData(data, {});
 			}
 		},
