@@ -39,6 +39,68 @@
                <section xml:id="dvn23fz">
                   <staff xml:id="p1gsuziy" n="1">
                      <layer xml:id="oxpcpx7" n="1">
+                       <note xml:id="wr53rn5" dur="brevis" oct="4" pname="f" />
+                       <dot xml:id="q1cuxxui" />
+                       <note dur="minima" oct="4" pname="e"/>
+                       <note dur="minima" oct="4" pname="d"/>
+                        <note dur="brevis" oct="4" pname="c"/>
+                        <proport num="1" numbase="2"/>
+                        <note dur="minima" oct="4" pname="d"/>
+                        <note dur="semiminima" oct="4" pname="e"/>
+                        <note dur="minima" oct="4" pname="g"/>
+                        <note dur="semiminima" oct="4" pname="e"/>
+                        <note dur="minima" oct="4" pname="f"/>
+                        <dot />
+                        <note dur="semiminima" oct="4" pname="e"/>
+                     </layer>
+                  </staff>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="6.0-dev">
+   <meiHead xml:id="mzqft21">
+      <fileDesc xml:id="f13mhw1v">
+         <titleStmt xml:id="t195nmvf">
+            <title/>
+            <respStmt><persName>Me</persName></respStmt>
+         </titleStmt>
+         <pubStmt xml:id="p1huv7ug">
+            <date isodate="2026-05-22" type="encoding-date">2026-05-22</date>
+         </pubStmt>
+      </fileDesc>
+      <encodingDesc xml:id="e2tl8w5">
+         <appInfo xml:id="a1lra14t">
+            <application xml:id="alw6597" isodate="2026-05-22T23:04:35" version="6.2.0-43f8060">
+               <name xml:id="n115m6re">Verovio</name>
+               <p xml:id="pnyoh2x">Transcoded from MusicXML</p>
+            </application>
+            <application xml:id="alh8qx1" startdate="2026-05-26T15:17:10" version="1.3.0" enddate="2026-05-26T15:17:10">
+               <name xml:id="nh5lokm1">mei-friend</name>
+               <p xml:id="ph89l3y2">First edit by mei-friend 1.3.0.</p>
+            </application>
+         </appInfo>
+      </encodingDesc>
+   </meiHead>
+   <music>
+      <body>
+         <mdiv xml:id="a1b3yb8">
+            <score xml:id="b179xb8m">
+               <scoreDef xml:id="codpwfc">
+                  <staffGrp xml:id="P1" bar.thru="true">
+                     <staffDef xml:id="l1gqfmuu" n="1" notationtype="mensural"
+                               lines="5" ppq="1" clef.shape="C" clef.line="1"
+                               tempus="2" prolatio="2" mensur.sign="C" mensur.slash="1"/>
+                  </staffGrp>
+               </scoreDef>
+               <section xml:id="dvn23fz">
+                  <staff xml:id="p1gsuziy" n="1">
+                     <layer xml:id="oxpcpx7" n="1">
                         <note xml:id="wr53rn5" dur="brevis" oct="4" pname="f" />
                         <dot xml:id="q1cuxxui" />
                         <note dur="minima" oct="4" pname="e"/>
