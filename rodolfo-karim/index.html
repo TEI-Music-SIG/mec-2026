@@ -6,24 +6,53 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/CETEIcean.css" media="all" />
     <link rel="stylesheet" href="css/custom.css" media="all" />
-	<script> 
+		<style>
+			tei-notatedmusic > a {
+				cursor: pointer;
+			}
+		</style>
+	<script>
 		MathJax = {
 			options: {
       		enableMenu: false  // disables the context menu
-      		}, 
+      		},
 		};
 	</script>
 	<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
-    <script src="js/CETEI.js"></script>
-    <script src="js/verovio-toolkit.js"></script>
-  </head>
+	<script src="js/CETEI.js"></script>
+	<script src="js/verovio-toolkit.js"></script>
+</head>
 
   <body>
   	<!-- container for TEI document -->
     <div id="TEI"></div>
   	<!-- rendition -->
-  	<script>
-		/* CETEIcean */
+  	<script type="module">
+		import { WorkletSynthesizer as Synthetizer, Sequencer } from 'https://cdn.jsdelivr.net/npm/spessasynth_lib/+esm';
+
+		var soundfont;
+		var synth;
+		var context;
+
+		document.addEventListener('DOMContentLoaded', () => {
+			fetch("GeneralUserGS.sf3").then(async response => {
+				context = new AudioContext();
+				await context.audioWorklet.addModule('./spessasynth_processor.min.js');
+				soundfont = await response.arrayBuffer();
+				synth = new Synthetizer(context);
+				synth.connect(context.destination);
+				await synth.soundBankManager.addSoundBank(soundfont, 'main');
+			});
+		});
+
+		export async function playMIDI(midiFile) {
+			context.resume();
+			const seq = new Sequencer(synth);
+			seq.loadNewSongList([{ binary: midiFile }]);
+			seq.play();
+		}
+
+			/* CETEIcean */
 		var CETEIcean = new CETEI()
 			CETEIcean.getHTML5("tei/reger.xml", function(data) {
 			document.getElementById("TEI").appendChild(data)
@@ -40,6 +69,10 @@
 			adjustPageHeight: true
 		});
 
+		function atoab(base64) {
+			return Uint8Array.from(atob(base64), (c) => c.charCodeAt(0)).buffer;
+		}
+
 		/* processor definitions */
 		const processors = [
 		{
@@ -51,6 +84,13 @@
 				const response = await fetch('mei/' + source);
 				const data = await response.text();
 				node.innerHTML = vrvToolkit.renderData(data, {});
+				const play = document.createElement('a');
+				play.innerHTML = '▶︎';
+				node.appendChild(play);
+				play.onclick = async function() {
+        	const midiFile = atoab(vrvToolkit.renderToMIDI());
+					playMIDI(midiFile);
+				}
 			}
 		},
 		{
@@ -74,7 +114,7 @@
 			}
 		}
 		];
-		
+
 		/* DOM processing */
 		async function processDOM() {
 			for (const processor of processors) {

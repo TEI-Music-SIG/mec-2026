@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="6.0-dev">
+   <meiHead xml:id="mzqft21">
+      <fileDesc xml:id="f13mhw1v">
+         <titleStmt xml:id="t195nmvf">
+            <title />
+            <respStmt>
+               <persName>Joshua Stutter</persName>
+            </respStmt>
+         </titleStmt>
+         <pubStmt xml:id="p1huv7ug">
+            <date isodate="2026-05-26" type="encoding-date">2026-05-26</date>
+         </pubStmt>
+      </fileDesc>
+      <encodingDesc xml:id="e2tl8w5">
+         <appInfo xml:id="a1lra14t">
+            <application xml:id="alw6597" isodate="2026-05-22T23:04:35" version="6.2.0-43f8060">
+               <name xml:id="n115m6re">Verovio</name>
+            </application>
+         </appInfo>
+      </encodingDesc>
+   </meiHead>
+   <music>
+      <body>
+         <mdiv xml:id="a1b3yb8">
+            <score xml:id="b179xb8m">
+               <scoreDef xml:id="codpwfc">
+                  <staffGrp xml:id="e1ksyeqi">
+                     <staffGrp xml:id="P1" bar.thru="true">
+                        <staffDef xml:id="l1gqfmuu" n="1" lines="5" ppq="1">
+                           <clef xml:id="snj1xva" shape="G" line="2" />
+                           <keySig xml:id="t6ie1om" sig="0" />
+                           <meterSig xml:id="uqycxek" count="3" unit="4" />
+                        </staffDef>
+                     </staffGrp>
+                  </staffGrp>
+               </scoreDef>
+               <section xml:id="dvn23fz">
+                  <section xml:id="l1n5s8am">
+                     <measure n="0" metcon="false">
+                        <staff n="1">
+                           <layer n="1">
+                              <note dur="4" oct="5" pname="e">
+                                 <verse n="1">
+                                    <syl wordpos="s">The</syl>
+                                 </verse>
+                              </note>
+                           </layer>
+                        </staff>
+                     </measure>
+                     <measure n="1">
+                        <staff n="1">
+                           <layer n="1">
+                              <note dur="4" oct="5" pname="c">
+                                 <verse n="1">
+                                    <syl wordpos="s">Mate</syl>
+                                 </verse>
+                              </note>
+                              <beam>
+                                 <note xml:id="slur1start" dur="8" oct="5" pname="e">
+                                    <verse n="1">
+                                       <syl wordpos="s" con="u">to</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="slur1end" dur="8" oct="5" pname="f" />
+                              </beam>
+                              <beam>
+                                 <note xml:id="slur2start" dur="8" oct="5" pname="g">
+                                    <verse n="1">
+                                       <syl wordpos="s" con="u">a</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="slur2end" dur="8" oct="5" pname="c" />
+                              </beam>
+                           </layer>
+                        </staff>
+                        <slur startid="#slur1start" endid="#slur1end" />
+                        <slur startid="#slur2start" endid="#slur2end" />
+                     </measure>
+                     <measure n="2">
+                        <staff n="1">
+                           <layer n="1">
+                              <note dur="2" oct="5" pname="d">
+                                 <verse n="1">
+                                    <syl wordpos="s">Cock,</syl>
+                                 </verse>
+                              </note>
+                              <note dur="4" oct="5" pname="c">
+                                 <verse n="1">
+                                    <syl wordpos="s">&amp;</syl>
+                                 </verse>
+                              </note>
+                           </layer>
+                        </staff>
+                     </measure>
+                     <measure n="3">
+                        <staff n="1">
+                           <layer n="1">
+                              <note dur="4" oct="5" pname="c">
+                                 <verse n="1">
+                                    <syl wordpos="s">Corn</syl>
+                                 </verse>
+                              </note>
+                              <note dur="4" oct="4" pname="a">
+                                 <verse n="1">
+                                    <syl wordpos="s">tall</syl>
+                                 </verse>
+                              </note>
+                              <note dur="4" oct="5" pname="d">
+                                 <verse n="1">
+                                    <syl wordpos="s">as</syl>
+                                 </verse>
+                              </note>
+                           </layer>
+                        </staff>
+                     </measure>
+                     <measure n="4">
+                        <staff n="1">
+                           <layer n="1">
+                              <note dur="2" oct="4" pname="b">
+                                 <verse n="1">
+                                    <syl wordpos="s">Wheat</syl>
+                                 </verse>
+                              </note>
+                              <note dur="4" oct="5" pname="d">
+                                 <verse n="1">
+                                    <syl wordpos="s">is</syl>
+                                 </verse>
+                              </note>
+                           </layer>
+                        </staff>
+                     </measure>
+                     <measure n="5">
+                        <staff n="1">
+                           <layer n="1">
+                              <note dur="4" oct="5" pname="e">
+                                 <verse n="1">
+                                    <syl wordpos="s">his</syl>
+                                 </verse>
+                              </note>
+                              <beam>
+                                 <note xml:id="slur3start" dur="8" oct="5" pname="e">
+                                    <verse n="1">
+                                       <syl wordpos="i" con="d">Chris</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="slur3end" dur="8" oct="5" pname="f" />
+                              </beam>
+                              <beam>
+                                 <note xml:id="slur4start" dur="8" oct="5" pname="g">
+                                    <verse n="1">
+                                       <syl wordpos="t" con="u">tian</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="slur4end" dur="8" oct="5" pname="e" />
+                              </beam>
+                           </layer>
+                        </staff>
+                        <slur startid="#slur3start" endid="#slur3end" />
+                        <slur startid="#slur4start" endid="#slur4end" />
+                     </measure>
+                  </section>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>

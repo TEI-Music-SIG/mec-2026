@@ -1,18 +1,13 @@
-# CETEIcean + Verovio + MathJax + SVG 📄🎵🎵➗📊
+# Second Example: Hostinský
 
-A minimal example to display TEI files with multiple sections of musical notation, **formulas** and **figures** within. Similar to [ceteicean-verovio](../ceteicean-verovio), but with additional TeX support using MathJax, plus native SVG support.
+A minimal example to display a TEI file with **diagrams** and **interlinks** between them.
 
-Live Demo: https://tei-music-sig.github.io/examples/ceteicean-verovio-mathjax-svg/
+Live Demo: https://tei-music-sig.github.io/mec-2026/example-hostinsky/
+
+Original page: https://babel.hathitrust.org/cgi/pt?id=nyp.33433032925590&seq=5
 
 ### How it works
 
-- see [ceteicean-verovio](../ceteicean-verovio)
+- see https://github.com/TEI-Music-SIG/examples/
 - a little JavaScript function manages the document selection
-- MathJax is triggered when a `<formula>` element in TEI contains `@rend="tex"`.
-- SVG is just rendered by the browser
-
-### How to customize
-
-- see [ceteicean-verovio](../ceteicean-verovio)
-
-If you would like to display more than one TEI file, try [ceteicean-verovio-corpus](../ceteicean-verovio-corpus).
+- SVG is included directly into HTML
