@@ -1,6 +1,6 @@
 # First Example: Reger
 
-A minimal example to display TEI files with multiple sections of musical notation and **formulas** within. Similar to [ceteicean-verovio](../ceteicean-verovio), but with additional TeX support using MathJax.
+An example to display TEI files with a section of **musical notation** and **formula-like functional chord notation**.
 
 Live Demo: https://tei-music-sig.github.io/mec-2026/example-reger/
 
