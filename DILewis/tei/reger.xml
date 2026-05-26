@@ -1,105 +1,106 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-	<teiHeader>
-		<fileDesc>
-			<titleStmt>
-				<title>First Example: Reger Page 6</title>
-			</titleStmt>
-			<publicationStmt>
-				<p>MEC 2026</p>
-			</publicationStmt>
-			<sourceDesc>
-				<p>Max Reger: Supplement to the Theory of Modulation (translated by J. Bernhoff). Leipzig: C. F. Kahnt
-					Nachfolger, 1904.</p>
-			</sourceDesc>
-		</fileDesc>
-	</teiHeader>
-	<text>
-		<body>
-			<pb n="6"/>
-			<div xml:id="id.12" type="chapter" n="0">
-<head xml:id="id.13" type="heading">
-On proportions of inequality that come about by the relation of a smaller number to a larger one. Book II, Chapter 1
-<add xml:id="id.14" resp="#ed">i</add>
-.
-</head>
-<p xml:id="id.15" n="2">
-What is more, just as in the 5 aforementioned genera of inequality larger numbers, as has been shown, are related to smaller ones, so conversely smaller ones can be related to larger ones in them. In this case you should notice that the names of neither the genera themselves nor their species are altered, except that by way of composition “sub” is prefixed to any of them, as submultiple, subsuperparticular, subsuperpartient, submultiple superparticular, submultiple superpartient, subduple, subsesquialtera, subsuperbipartient, subsuperbipartient thirds, subduple sesquialtera, subduple superbipartient, subduple superbipartient thirds. And so for the others.
-</p>
-<p xml:id="id.16" n="3">
-The definition of any of them, nevertheless, should be made in such a way that what was the subject there is here the predicate and vice versa. So that these may become better known by the inexperienced, I propose to easily define the aforementioned 5 genera together with (as I judge) sufficient of their species suitable for understanding the rest, and to put them into practice for example.
-</p>
-</div>
-<div xml:id="id.17" type="chapter" n="1">
-<head xml:id="id.18" type="heading">
-On the submultiple genus. Chapter 2
-<add xml:id="id.19" resp="#ed">ii</add>
-.
-</head>
-<p xml:id="id.20" n="2">
-The submultiple genus is that in which the smaller number related to a larger is contained within it multiple times precisely. For instance twice and it will be subduple and so forth.
-</p>
-<p xml:id="id.21" n="3">
-<hi xml:id="id.22" rend="Subheading">On subduple.</hi>
-</p>
-<p xml:id="id.23" n="4">
-Subduple is the proportion in which the smaller number related to a larger is contained within it twice precisely, as 1 to 2 and so forth, just as here:
-</p>
-<p xml:id="id.24" n="5"/>
-</div>
-<div xml:id="id.25" type="chapter" n="2">
-<head xml:id="id.26" type="heading">
-On the subsuperparticular genus. Chapter 3
-<add xml:id="id.27" resp="#ed">iii</add>
-.
-</head>
-<p xml:id="id.28" n="2">
-The subsuperparticular genus is that in which the smaller number related to a larger is contained within it as a whole and in addition its aliquot part. For instance a half and it will be subsesquialtera and so forth.
-</p>
-<p xml:id="id.29" n="3">
-<hi xml:id="id.30" rend="Subheading">On subsesquialtera.</hi>
-</p>
-<p xml:id="id.31" n="4">
-Subsesquialtera is the proportion in which the smaller number related to a larger is contained within it as a whole and in addition its half aliquot part, as 2 to 3, 4 to 6, and so forth, just as here:
-</p>
-<p xml:id="id.32" n="5"/>
-</div>
-<div xml:id="id.33" type="chapter" n="3">
-<head xml:id="id.34" type="heading">
-On the subsuperpartient genus. Chapter 4
-<add xml:id="id.35" resp="#ed">iv</add>
-.
-</head>
-The subsuperpartient genus is that in which the smaller number related to a larger is contained within it as a whole and in addition some of its aliquot parts making one aliquant part. For instance 2 and it will be subsuperbipartient. And so for the others.<head rend="center">Analysis of the Examples in Modulation.</head>
-			<p rend="center">a) From <hi rend="b">C-major</hi> to:</p>
-			<notatedMusic rend="mei" source="from-c-major-to.mei"/>
-			<div>
-				<head>1) <hi rend="b">G-major.</hi></head>
-				<p rend="indent">
-					<lb/>Tonic C-major; use this C-major which is
-					<lb/>at the same time the sub-dominant of G-major.
-					<lb/>(Cadence!)
-					<lb/><formula notation="tex">$$[C^{I}\;(=G^{IV}),\;G^{\underline{II}*},\;G^{V^{6}_{4}},\;G^{V},\;|G^{I}]$$</formula>
-				</p>
-			</div>
-			<div>
-				<head>2) <hi rend="b">D-major.</hi></head>
-				<p rend="indent">
-					<lb/>Tonic C-major; relative (e-minor) to the domi-
-					<lb/>nant (G-major) of C-major; use this e-minor
-					<lb/>(1st inversion), which is also relative to the
-					<lb/>subdominant (G-major) of D-major. (Cadence!)
-					<lb/><formula notation="tex">$$[C^{I},\;C^{\underline{III}}\;(=D^{\underline{II}}),\;D^{V^{6}_{4}},\;D^{V},\;|D^{I}]$$</formula>
-				</p>
-			</div>
-			<div type="footnotes">
-				<p xml:id="p6.fn1">
-					<lb/>*) "-" this mark under the Roman cipher means: 1st in-
-					<lb/>version (chord of the sixth),
-					<lb/>"=" this mark under the Roman cipher means
-					<lb/>2nd inversion (chord of the six-four).
-				</p>
-			</div>
-		</body>
-	</text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>First Example: Reger Page 6</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>MEC 2026</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Max Reger: Supplement to the Theory of Modulation (translated by J. Bernhoff). Leipzig: C. F. Kahnt
+                    Nachfolger, 1904.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="6"/>
+            <div xml:id="id.12" type="chapter" n="0">
+                <head xml:id="id.13" type="heading">
+                    On proportions of inequality that come about by the relation of a smaller number to a larger one. Book II, Chapter 1
+                    <add xml:id="id.14" resp="#ed">i</add>
+                    .
+                </head>
+                <p xml:id="id.15" n="2">
+                    What is more, just as in the 5 aforementioned genera of inequality larger numbers, as has been shown, are related to smaller ones, so conversely smaller ones can be related to larger ones in them. In this case you should notice that the names of neither the genera themselves nor their species are altered, except that by way of composition “sub” is prefixed to any of them, as submultiple, subsuperparticular, subsuperpartient, submultiple superparticular, submultiple superpartient, subduple, subsesquialtera, subsuperbipartient, subsuperbipartient thirds, subduple sesquialtera, subduple superbipartient, subduple superbipartient thirds. And so for the others.
+                </p>
+                <p xml:id="id.16" n="3">
+                    The definition of any of them, nevertheless, should be made in such a way that what was the subject there is here the predicate and vice versa. So that these may become better known by the inexperienced, I propose to easily define the aforementioned 5 genera together with (as I judge) sufficient of their species suitable for understanding the rest, and to put them into practice for example.
+                </p>
+            </div>
+            <div xml:id="id.17" type="chapter" n="1">
+                <head xml:id="id.18" type="heading">
+                    On the submultiple genus. Chapter 2
+                    <add xml:id="id.19" resp="#ed">ii</add>
+                    .
+                </head>
+                <p xml:id="id.20" n="2">
+                    The submultiple genus is that in which the smaller number related to a larger is contained within it multiple times precisely. For instance twice and it will be subduple and so forth.
+                </p>
+                <p xml:id="id.21" n="3">
+                    <hi xml:id="id.22" rend="Subheading">On subduple.</hi>
+                </p>
+                <p xml:id="id.23" n="4">
+                    Subduple is the proportion in which the smaller number related to a larger is contained within it twice precisely, as 1 to 2 and so forth, just as here:
+                </p>
+                <p xml:id="id.24" n="5"/>
+            </div>
+            <div xml:id="id.25" type="chapter" n="2">
+                <head xml:id="id.26" type="heading">
+                    On the subsuperparticular genus. Chapter 3
+                    <add xml:id="id.27" resp="#ed">iii</add>
+                    .
+                </head>
+                <p xml:id="id.28" n="2">
+                    The subsuperparticular genus is that in which the smaller number related to a larger is contained within it as a whole and in addition its aliquot part. For instance a half and it will be subsesquialtera and so forth.
+                </p>
+                <p xml:id="id.29" n="3">
+                    <hi xml:id="id.30" rend="Subheading">On subsesquialtera.</hi>
+                </p>
+                <p xml:id="id.31" n="4">
+                    Subsesquialtera is the proportion in which the smaller number related to a larger is contained within it as a whole and in addition its half aliquot part, as 2 to 3, 4 to 6, and so forth, just as here:
+                </p>
+                <p xml:id="id.32" n="5"/>
+            </div>
+            <div xml:id="id.33" type="chapter" n="3">
+                <head xml:id="id.34" type="heading">
+                    On the subsuperpartient genus. Chapter 4
+                    <add xml:id="id.35" resp="#ed">iv</add>
+                    .
+                </head>
+                The subsuperpartient genus is that in which the smaller number related to a larger is contained within it as a whole and in addition some of its aliquot parts making one aliquant part. For instance 2 and it will be subsuperbipartient. And so for the others.<head rend="center">Analysis of the Examples in Modulation.</head>
+                <p rend="center">a) From <hi rend="b">C-major</hi> to:</p>
+                <notatedMusic rend="mei" source="from-c-major-to.mei"/>
+                <div>
+                    <head>1) <hi rend="b">G-major.</hi></head>
+                    <p rend="indent">
+                        <lb/>Tonic C-major; use this C-major which is
+                        <lb/>at the same time the sub-dominant of G-major.
+                        <lb/>(Cadence!)
+                        <lb/><formula notation="tex">$$[C^{I}\;(=G^{IV}),\;G^{\underline{II}*},\;G^{V^{6}_{4}},\;G^{V},\;|G^{I}]$$</formula>
+                    </p>
+                </div>
+                <div>
+                    <head>2) <hi rend="b">D-major.</hi></head>
+                    <p rend="indent">
+                        <lb/>Tonic C-major; relative (e-minor) to the domi-
+                        <lb/>nant (G-major) of C-major; use this e-minor
+                        <lb/>(1st inversion), which is also relative to the
+                        <lb/>subdominant (G-major) of D-major. (Cadence!)
+                        <lb/><formula notation="tex">$$[C^{I},\;C^{\underline{III}}\;(=D^{\underline{II}}),\;D^{V^{6}_{4}},\;D^{V},\;|D^{I}]$$</formula>
+                    </p>
+                </div>
+                <div type="footnotes">
+                    <p xml:id="p6.fn1">
+                        <lb/>*) "-" this mark under the Roman cipher means: 1st in-
+                        <lb/>version (chord of the sixth),
+                        <lb/>"=" this mark under the Roman cipher means
+                        <lb/>2nd inversion (chord of the six-four).
+                    </p>
+                </div>
+            </div>
+        </body>
+    </text>
 </TEI>
