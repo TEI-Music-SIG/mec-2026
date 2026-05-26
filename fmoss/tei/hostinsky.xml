@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Second Example: Hostinský Page 67</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>MEC 2026</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Die Lehre von den musikalischen Klängen. Ottokar Hostinský, Prag: Dominicus, 1879.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <!--<facsimile
+  xml:id="p67">
+		<graphic
+  url="https://fabianmoss.github.io/digimusth/data/HOS1879/scans/Hostinsk%C3%BD1879-0075.jpg"/>
+	</facsimile>-->
+  <text>
+    <body>
+      <div>
+        <pb n="67" facs="#p67" />
+        <p>
+          <lb n="1" />engsten verwandtschaftlichen Verhältnisses gewissermassen nur als <lb n="2" />Alterego,
+          als Verdoppelung des betreffenden Grundtones in anderer <lb n="3" />Lage angesehen wird
+          und deshalb <lb n="4" />auch den Namen des letzteren <lb n="5" />beibehält, die Quarte und
+          die <lb n="6" />Sexten aber aus der <ref target="#P5u #P5d">Quinte</ref> und <lb n="7" />den
+          Terzen durch Umkehrung ent- <lb
+            n="8" />stehen, so haben wir <hi rend="s">blos eine <lb n="9" />dreifache wechselseitige <lb
+              n="10" />und unmittelbare Ver- <lb n="11" />wandtschaft, die uns zu <lb n="12" />neuen
+          Tönen führt: die der <lb n="13" />Quinte, der <ref target="#M3u #M3d">grossen</ref> und <lb
+              n="14" />der <ref target="#m3u #m3d">kleinen</ref> Terz</hi>. Wenn wir <lb n="15" />z.
+          B. vom Tone <ref target="#c0">
+            <hi rend="i">c</hi>
+          </ref> ausgehen, so <lb n="16" />sind die directen
+          Verwandten: <ref target="#g0">
+            <hi rend="i">g</hi>
+          </ref>
+					<lb n="17" />und <ref target="#f0">
+            <hi rend="i">f</hi>
+          </ref>, <ref target="#e-1">
+            <hi rend="i">e̲</hi>
+          </ref> und <ref target="#as1">
+            <hi rend="i">a̅s̅</hi>
+          </ref>, <ref target="#es1">
+            <hi rend="i">e̅s̅</hi>
+          </ref> und <ref target="#a-1">
+            <hi rend="i">a̲</hi>
+          </ref>, also <lb n="18" />schematisirt:</p>
+        <figure>
+          <graphic url="hostinsky_small.svg" rend="svg" />
+        </figure>
+        <p>
+          <lb n="19" />Selbstverständlich ist der Ver- <lb n="20" />wandtschaftsgrad in der Quinten- <lb
+            n="21" />richtung am stärksten, in der <lb n="22" />Richtung der kleinen Terz am <lb
+            n="23" />schwächsten. Man kann dieses <lb n="24" />Schema noch erweitern, indem <lb
+            n="25" />man es auch auf die mittelbare <lb n="26" />Verwandtschaft ausdehnt; auf diese <lb
+            n="27" />Weise erhält man schliesslich eine <lb n="28" />das ganze Tonsystem, d. h. die <lb
+            n="29" />gesammten aus künstlerischen <lb n="30" />Gründen der continuirlichen Ton- <lb
+            n="31" />linie entnommenen discreten Puncte <lb n="32" />umfassende Uebersicht, die
+          keiner <lb n="33" />näheren Erklärung bedarf.</p>
+        <figure rend="rotate90">
+          <graphic url="hostinsky_large.svg" rend="svg" />
+        </figure>
+        <p rend="indent">
+          <lb n="34" />Der Unerschöpflichkeit der <lb n="35" />musikalischen Kunstmittel entspre- <lb
+            n="36" />chend lässt sich dieses Schema <lb n="37" />nach allen Seiten beliebig fort- <lb
+            n="38" />setzen. Allerdings sind darin die <lb n="39" />Octaven ganz unberücksichtigt
+          ge- <lb n="40" />blieben. Man sieht aber auf den</p>
+      </div>
+    </body>
+  </text>
+</TEI>
