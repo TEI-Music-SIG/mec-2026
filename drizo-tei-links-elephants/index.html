@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <title>Canción del elefante</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/CETEIcean.css" media="all" />
+    <link rel="stylesheet" href="css/custom.css" media="all" />
+	<script> 
+		MathJax = {
+			options: {
+      		enableMenu: false  // disables the context menu
+      		}, 
+		};
+	</script>
+	<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+    <script src="js/CETEI.js"></script>
+    <script src="js/verovio-toolkit.js"></script>
+  </head>
+
+  <body>
+	<!-- container for TEI document -->	 
+	<div id="TEI"></div>
+	
+  	<!-- rendition -->
+  	<script>
+		/* CETEIcean */
+		var CETEIcean = new CETEI()
+			CETEIcean.getHTML5("tei/letra.xml", function(data) {
+			document.getElementById("TEI").appendChild(data)
+		})
+
+		/* Verovio */
+		const vrvToolkit = new verovio.toolkit();
+		vrvToolkit.setOptions({
+			pageHeight: 500,
+			pageWidth: 1000,
+			ignoreLayout: 1,
+			border: 20,
+			scale: 50,
+			adjustPageHeight: true
+		});
+
+		/* processor definitions */
+		const processors = [
+		{
+			name: 'verovio',
+			selector: 'tei-notatedMusic[rend="mei"]',
+			async process(node) {
+				const source = node.getAttribute('source');
+				if (!source) return;
+				const response = await fetch('mei/' + source);
+				const data = await response.text();
+				node.innerHTML = vrvToolkit.renderData(data, {});
+			}
+		},
+		{
+			name: 'svg',
+			selector: 'tei-graphic[rend="svg"]',
+			async process(node) {
+				const url = node.getAttribute('url');
+				if (!url) return;
+				const response = await fetch('svg/' + url);
+				const svg = await response.text();
+				node.innerHTML = svg;
+			}
+		},
+		{
+			name: 'mathjax',
+			selector: 'tei-formula, tei-p[rend="latex"], .math',
+			async process(node) {
+				if (window.MathJax && MathJax.typesetPromise) {
+					await MathJax.typesetPromise([node]);
+				}
+			}
+		}
+		];
+		
+		/* DOM processing */
+		async function processDOM() {
+			for (const processor of processors) {
+				const nodes = document.querySelectorAll(processor.selector);
+				for (const node of nodes) {
+					const key = 'processed' + processor.name;
+					if (!node.dataset[key]) {
+						node.dataset[key] = 'true';
+						try {
+							await processor.process(node);
+						} catch (error) {
+							console.error(`Error in ${processor.name}:`, error, node);
+						}
+					}
+				}
+			}
+			requestAnimationFrame(processDOM);
+		}
+		document.addEventListener('DOMContentLoaded', processDOM);
+		
+		/* visualize interlinking */
+		document.addEventListener('mouseover', function(event) {
+			const ref = event.target.closest('tei-ref');
+			if (!ref) return;
+			const target = ref.getAttribute('target');
+			if (!target) return;
+			const svgElement = document.querySelector(target);
+			if (svgElement) {
+				svgElement.classList.add('svg-highlight');
+			}
+		});
+		document.addEventListener('mouseout', function(event) {
+			const ref = event.target.closest('tei-ref');
+			if (!ref) return;
+			const target = ref.getAttribute('target');
+			if (!target) return;
+			const svgElement = document.querySelector(target);
+			if (svgElement) {
+				svgElement.classList.remove('svg-highlight');
+			}
+		});
+  	</script>
+  </body>
+
+</html>
