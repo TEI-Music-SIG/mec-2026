@@ -26,3 +26,6 @@ tei-text tei-p[rend='center'],
 tei-text tei-head[rend='center'] {
     text-align:center;
 }
+[rend='Ink(red)'] {
+	color: red;
+}
