@@ -29,3 +29,14 @@ tei-text tei-head[rend='center'] {
 [rend='Ink(red)'] {
 	color: red;
 }
+[rend='Ink(blue)'] {
+	color: blue;
+}
+[rend='Dropcaps(fourline)'] {
+	font-size: 560%;
+	margin-bottom: -10px;
+	line-height: 0.8;
+	height: 80px;
+	float: left;
+	padding-right: 10px;
+}
