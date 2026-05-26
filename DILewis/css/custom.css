@@ -32,7 +32,7 @@ tei-text tei-head[rend='center'] {
 [rend='Ink(blue)'] {
 	color: blue;
 }
-[rend='Dropcaps(fourline)'] {
+[rend='Drop-caps(fourline)'] {
 	font-size: 560%;
 	margin-bottom: -10px;
 	line-height: 0.8;
