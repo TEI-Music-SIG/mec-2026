@@ -48,6 +48,7 @@
 			async process(node) {
 				const source = node.getAttribute('source');
 				if (!source) return;
+				console.log("SOURCE: ", source);
 				const response = await fetch('mei/' + source);
 				const data = await response.text();
 				node.innerHTML = vrvToolkit.renderData(data, {});
