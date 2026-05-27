@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Pequeña canción</title>
+                <author>Anónimo</author>
+            </titleStmt>
+            <publicationStmt>
+                <p>Ejemplo generado durante el tutorial de F. Moss en Mec 2026.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Para tutorial...</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div type="song">
+                <head>Un elefante se balanceaba</head>
+                
+                <lg type="stanza" n="1">
+                    <l><ref target="#elefante1">Un elefante se balanceaba</ref></l>
+                    <l>sobre la <ref target="#tela1">tela de una araña</ref>;</l>
+                    <l>como veía que no se caía,</l>
+                    <l>fue a llamar a otro elefante.</l>
+                </lg>
+                
+                <figure>
+                    <graphic url="elefante1.svg" rend="svg"/>
+                </figure>                
+                
+                <lg type="stanza" n="2">
+                    <l><ref target="#elefante2">Dos elefantes</ref> se balanceaban</l>
+                    <l>sobre la <ref target="#tela2">tela de una araña</ref>;</l>
+                    <l>como veían que no se caían,</l>
+                    <l>fueron a llamar a otro elefante.</l>
+                </lg>              
+                
+                <figure>
+                    <graphic url="elefante2.svg" rend="svg"/>
+                </figure>
+                
+                
+            </div>
+        </body>
+    </text>
+
+</TEI>

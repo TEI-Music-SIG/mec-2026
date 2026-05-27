@@ -44,7 +44,7 @@
 		const processors = [
 		{
 			name: 'verovio',
-			selector: 'tei-notatedMusic[rend="krn"]',
+			selector: 'tei-notatedMusic[rend="mei"]',
 			async process(node) {
 				const source = node.getAttribute('source');
 				if (!source) return;
